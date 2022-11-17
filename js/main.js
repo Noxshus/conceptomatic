@@ -1,4 +1,4 @@
-function GenerateOneOfEach()
+function GenerateOneOfEach() 
 {
     let _oneOfEachArray = [];
 
