@@ -28,5 +28,5 @@ function ReturnRandomElementFromArray (_array) //pick a random element from the 
 
 function RandomInteger(min, max) //https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
 {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+    return Math.floor(Math.random() * (max - min + 1)) + min; 
 }
