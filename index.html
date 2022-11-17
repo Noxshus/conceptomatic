@@ -17,7 +17,7 @@
                     <div class="level-item has-text-centered">
                       <div>
                         <p class="heading">Conceptomatic</p>
-                        <button class="button is-primary is-rounded">Click to Generate!</button>
+                        <button class="button is-primary is-rounded" onclick="GenerateOneOfEach()">Click to Generate!</button>
                       </div>
                     </div>
                 </nav>
@@ -25,34 +25,62 @@
         </section>
 
         <section class="section"> <!--center part of screen-->
-            <div class="columns"> 
+            <div class="columns has-text-centered"> 
 
                 <div class="column">
-                    <p class="bd-notification is-primary">Characters</p>
+                    <p >Characters</p>
+                    <div class="control">
+                        <textarea class="textarea" readonly id="characterstextbox">This content is readonly</textarea>
+                    </div>
                 </div>
 
                 <div class="column">
                     <p>Culture</p>
+                    <div class="control">
+                        <textarea class="textarea" readonly id="culturestextbox">This content is readonly</textarea>
+                    </div>
                 </div>
 
                 <div class="column">
                     <p>Emotion</p>
+                    <div class="control">
+                        <textarea class="textarea" readonly id="emotionstextbox">This content is readonly</textarea>
+                    </div>
                 </div>
 
                 <div class="column">
                     <p>Period</p>
+                    <div class="control">
+                        <textarea class="textarea" readonly id="periodstextbox">This content is readonly</textarea>
+                    </div>
                 </div>
 
                 <div class="column">
                     <p>Styles</p>
+                    <div class="control">
+                        <textarea class="textarea" readonly id="stylestextbox">This content is readonly</textarea>
+                    </div>
                 </div>
 
                 <div class="column">
                     <p>Genre</p>
+                    <div class="control">
+                        <textarea class="textarea" readonly id="genrestextbox">This content is readonly</textarea>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <p>Classics</p>
+                    <div class="control">
+                        <textarea class="textarea" readonly id="classicstextbox">This content is readonly</textarea>
+                    </div>
                 </div>
 
                 <div class="column">
                     <p>Place</p>
+                    <div class="control">
+                        <textarea class="textarea" readonly id="placestextbox">This content is readonly</textarea>
+                    </div>
                 </div>
             </div>
         </section>
@@ -62,8 +90,8 @@
                 <nav class="level">
                     <div class="level-item has-text-centered">
                       <div>
-                        <p class="heading">footer</p>
-                        <p class="title">footer</p>
+                        <p class="heading">.</p>
+                        <p class="title">.</p>
                       </div>
                     </div>
                 </nav>
