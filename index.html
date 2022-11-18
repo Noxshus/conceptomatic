@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Conceptomatic</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
         <script src="js/main.js"></script>
         <script src="js/content.js"></script> 
     </head>
@@ -16,8 +17,8 @@
                 <nav class="level">
                     <div class="level-item has-text-centered">
                       <div>
-                        <p class="heading">Conceptomatic</p>
-                        <button class="button is-primary is-rounded" onclick="GenerateOneOfEach()">Click to Generate!</button>
+                        <p class="heading" id="text">Conceptomatic</p>
+                        
                       </div>
                     </div>
                 </nav>
@@ -83,19 +84,10 @@
                     </div>
                 </div>
             </div>
+			<div class="level-item has-text-centered"><button class="button is-primary is-rounded" onclick="GenerateOneOfEach()">Click to Generate!</button>
+				</div>
         </section>
 
-        <section class="hero is-small"> <!--lower part of screen-->
-            <div class="hero-body">
-                <nav class="level">
-                    <div class="level-item has-text-centered">
-                      <div>
-                        <p class="heading">.</p>
-                        <p class="title">.</p>
-                      </div>
-                    </div>
-                </nav>
-            </div>
-        </section>
+        
     </body>
 </html>
